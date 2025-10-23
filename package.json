@@ -1,0 +1,16 @@
+{
+    "name": "volume-control-extention",
+    "version": "1.0.0",
+    "description": "Volume Control Extention",
+    "type": "module",
+    "scripts": {
+        "build": "node cleanUp.js && node esbuild.js",
+        "dev": "node esbuild.js dev"
+    },
+    "author": "iEnis",
+    "devDependencies": {
+        "@types/chrome": "^0.1.24",
+        "esbuild": "^0.25.11",
+        "typescript": "^5.9.3"
+    }
+}

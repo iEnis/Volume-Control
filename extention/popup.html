@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tab Volume</title>
+        <link rel="stylesheet" href="popup.css" />
+    </head>
+    <body>
+        <h3>Volume</h3>
+        <input type="range" id="volume" min="0" max="50" value="10" />
+        <p id="label">100%</p>
+
+        <button id="reset">
+            <svg viewBox="0 0 24 24">
+                <path
+                d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.27-.42 2.44-1.12 3.38l1.46 1.46C19.12 15.69 20 13.95 20 12c0-4.42-3.58-8-8-8zm-6.34 2.22L4.22 7.34C3.42 8.56 3 9.73 3 11c0 4.42 3.58 8 8 8v3l4-4-4-4v3c-3.31 0-6-2.69-6-6 0-1.27.42-2.44 1.12-3.38z"
+                />
+            </svg>
+            Reset
+        </button>
+        <span id="title">loading...</span>
+
+        <script type="module" src="popup.js"></script>
+    </body>
+</html>

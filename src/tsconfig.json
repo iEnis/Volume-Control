@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "rootDir": ".",
+        "sourceMap": true,
+        "allowJs": false,
+
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "forceConsistentCasingInFileNames": true,
+
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true,
+
+        "lib": ["DOM", "ES2022"],
+        "types": ["chrome", "./types/global.d.ts"]
+    },
+    "include": ["./**/*"],
+    "exclude": ["node_modules"]
+}
